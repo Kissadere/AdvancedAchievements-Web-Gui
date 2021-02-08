@@ -49,15 +49,22 @@
                               <option selected value="normal">Común</option>
                               <option value="rare">Raro</option>
                            </select>
+                           <div id="wb_formLabelMeta">
+                              <span id="wb_uid4">NOMBRE DE LA ENTIDAD</span>
+                           </div>
+                           <div id="wb_formDescMeta">
+                              <span id="wb_uid5">https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/entity/EntityType.html</span>
+                           </div>
+                           <input type="text" id="formFieldMeta" name="achievementMeta" value="" maxlength="32" autocomplete="off" spellcheck="false" required>
                            <div id="wb_formLabelObjective">
-                              <span id="wb_uid4">OBJETIVO A COMPLETAR</span>
+                              <span id="wb_uid6">OBJETIVO A COMPLETAR</span>
                            </div>
                            <input type="number" id="formFieldObjective" name="achievementObjective" value="" maxlength="3" autocomplete="off" spellcheck="false" required min="1" max="999">
                            <div id="wb_formLabelRewards">
-                              <span id="wb_uid5">RECOMPENSA POR COMPLETAR</span>
+                              <span id="wb_uid7">RECOMPENSA POR COMPLETAR</span>
                            </div>
                            <div id="wb_formDescOxygen">
-                              <span id="wb_uid6">En caso de elegir oxígeno, cada treinta niveles; es una burbuja de oxígeno extra.</span>
+                              <span id="wb_uid8">En caso de elegir oxígeno, cada treinta niveles; es una burbuja de oxígeno extra.</span>
                            </div>
                            <select name="achievementReward" size="1" id="formFieldReward" autocomplete="off">
                               <option selected value="Money">Monedas</option>
