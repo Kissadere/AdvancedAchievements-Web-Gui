@@ -11,7 +11,7 @@ $aachFilename = "./content/breed.yml";
 if (is_writable($aachFilename)) {
 
     $fileWrite    = fopen($aachFilename, 'a');
-    $fileContent  = "\n $aachObjective:\n   Name: $s\n   Type: $aachTier\n   DisplayName: $aachDisplayname\n   Message: $aachMessage\n   Rewards:\n      $aachReward: $aachDataReward";
+    $fileContent  = "\n $aachMeta:\n   $aachObjective:\n     Name: $s\n     Type: $aachTier\n     DisplayName: $aachDisplayname\n     Message: $aachMessage\n     Rewards:\n       $aachReward: $aachDataReward";
     fwrite($fileWrite, $fileContent);
     fclose($fileWrite);
 
