@@ -29,7 +29,7 @@
                   </section>
                </div>
                <div id="wb_gridFormContainer">
-                  <form name="gridFormContainer" method="post" action="../builder/testfield.php" enctype="multipart/form-data" accept-charset="UTF-8" id="gridFormContainer">
+                  <form name="gridFormContainer" method="post" action="../builder/constructor.php" enctype="multipart/form-data" accept-charset="UTF-8" id="gridFormContainer">
                      <input type="hidden" name="achievementType" value="distanceMinecart" id="achievementType">
                      <input type="hidden" name="formCompletion" value="true" id="formCompletion">
                      <div class="row">
@@ -80,7 +80,7 @@
       </main>
    </div>
    <script src="../scripts/jquery-1.12.4.min.js"></script>
-   <script>   
+   <script>
    $(document).ready(function()
    {
       $("a[href*='#gridMain']").click(function(event)

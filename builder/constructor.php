@@ -249,7 +249,7 @@ switch ($aachType) {
 
     // Generador de logros para tipo: Item Pickup
     case 'itemPickup':
-      require "cases/itempickup.php";
+      require "cases/itempickups.php";
       echo "$aachType";
       break;
 

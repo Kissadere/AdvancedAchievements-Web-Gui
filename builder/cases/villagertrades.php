@@ -7,7 +7,7 @@
 |
 */
 
-$aachFilename = "./content/maxlevel.yml";
+$aachFilename = "./content/trades.yml";
 if (is_writable($aachFilename)) {
 
     $fileWrite    = fopen($aachFilename, 'a');
