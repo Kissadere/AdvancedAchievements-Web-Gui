@@ -1,32 +1,14 @@
-# AdvancedAchievements Web Interface
-Create new achievements for your minecraft server on your browser, faster and easier.
-
-
-# Installation
-1. Download the project from this repository
-2. Upload files to your favorite web hosting or use it on your localhost
-3. Select an achievement type
-4. Fill out the necessary information
-5. Lookup for the output data inside **/builder/content**
-
-# File Strucure
-- The core of this project is located on the builder and **/builder/cases**, feel free to review the code, it's commented (Spanish) for easy read.
-- You'll find the output of every achievement type in **builder/content**, please do not remove any file from here to prevent issues while crerating new achievements.
-- Forms of every achievement are located in **/new-achievement** folder, their assets are located in **/css** and **/scripts**
-
-# Upcoming features
-1. English translation
-
-
 # Advanced Achievements Web Interface
 Create new achievements for your minecraft server on your browser, faster and easier. Available in Spanish and English.
+
 
 # Installation
 - Download the latest stable version of this project
 - Upload your files to your favorite web hosting
 
+
 # Configuration
-In order to change the default language, you'll have to edit includes/settings.php
+In order to change the default language, you'll have to edit **includes/settings.php**
 ```php
 // Available languages: es_mx (Español) and en_us (English).
 $systemLanguage = "es_mx";
@@ -52,8 +34,16 @@ $systemLimitsRewards                = "10000";
 $systemLimitsLengthRewards          = "5";
 ```
 
+
 # Translations
-You can modify the default translations (both available in English and Spanish) to match your needs. Simply locate the includes/lang_xx.php files and modify them as you wish
+You can modify the default translations (both available in English and Spanish) to match your needs. Simply locate the **includes/lang_xx.php** files and modify them as you wish
 ```php
 $langMainTitle = "DO NOT MODIFY THE VARIABLE NAMES, ONLY TEXT";
 ```
+
+
+# Upcoming features
+1. Import your current plugins config.yml
+2. Generate a single file for all achievements, appart from the individual files
+
+
