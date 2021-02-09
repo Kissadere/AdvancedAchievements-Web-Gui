@@ -90,7 +90,7 @@
                            </div>
                            <select name="achievementTier" size="1" id="formFieldTier" autocomplete="off">
                               <option selected value="normal"><?php echo $langTierCommon ?></option>
-                              <option value="rare"><? php echo $langTierRare ?></option>
+                              <option value="rare"><?php echo $langTierRare ?></option>
                            </select>
                            <div id="wb_formLabelMeta">
                               <span id="wb_uid5"><?php echo $langFormLabelMeta ?></span>
