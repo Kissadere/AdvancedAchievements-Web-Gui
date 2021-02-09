@@ -84,7 +84,7 @@ $langRewardHealth                       = "Health";
 */
 $langBtnSubmit                          = "Generate";
 $langBtnClear                           = "Reset form";
-$langBtnNewAchievement                  = "Crear nuevo logro";
+$langBtnNewAchievement                  = "Create New";
 
 /*
 |
