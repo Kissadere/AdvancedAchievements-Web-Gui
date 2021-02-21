@@ -82,7 +82,7 @@ $langRewardHealth                       = "Здоровье";
 | Кнопки
 |
 */
-$langBtnSubmit                          = "Сгенерировать";
+$langBtnSubmit                          = "Создать";
 $langBtnClear                           = "Сбросить";
 $langBtnNewAchievement                  = "Создать новое достижение";
 
