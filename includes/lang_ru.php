@@ -63,7 +63,7 @@ $langCatAnimalTaming                    = "Приручено животных";
 $langCatUsedFireworks                   = "Использовано фейерверков";
 $langCatUsedMusic                       = "Проиграно пластинок";
 $langCatUsedPearls                      = "Использовано Жемчугов Края";
-$langCatUsedFurnance                    = "Выплавлено предметов";
+$langCatUsedFurnance                    = "Взаимодействий с печью";
 $langTierCommon                         = "Обычное";
 $langTierRare                           = "Редкое";
 
