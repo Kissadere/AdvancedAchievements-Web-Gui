@@ -25,7 +25,7 @@ switch ($systemLanguage) {
     break;
   // Русский  
   case 'en_us':
-      include "lang_en.php";
+      include "lang_ru.php";
     break;
 }
 ?>
