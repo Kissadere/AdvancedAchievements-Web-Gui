@@ -23,5 +23,11 @@ switch ($systemLanguage) {
   case 'en_us':
       include "lang_en.php";
     break;
+
+
+  // Русский  
+  case 'en_us':
+      include "lang_ru.php";
+    break;
 }
 ?>
